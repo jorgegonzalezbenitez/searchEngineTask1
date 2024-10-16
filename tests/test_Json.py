@@ -9,7 +9,6 @@ dictionary = indexer_json(datalake_path)
 def test_save_inverted_index_Json(benchmark):
     benchmark(lambda: save_inverted_index_json(dictionary, datamartTest))
     print("save_inverted_index completed.")
-
 def test_user_query_Json(benchmark):
     word = "project"
     results = benchmark(lambda: search_in_json_datamart(datamartTest, word))
