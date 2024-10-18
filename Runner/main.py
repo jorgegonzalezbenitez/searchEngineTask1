@@ -8,7 +8,6 @@ from userQuery import *
 
 db_name = "BooksDatabase"
 collection_name = "InvertedIndex"
-
 stop_event = threading.Event()
 
 def process_books():
