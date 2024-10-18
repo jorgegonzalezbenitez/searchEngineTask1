@@ -11,7 +11,6 @@ collection_name = "InvertedIndex"
 
 stop_event = threading.Event()
 
-
 def process_books():
     while not stop_event.is_set():
         crawler()
