@@ -38,7 +38,8 @@ This project was developed using the following tools:
 
 ## Benchmarking Results
 
-![Pytest Results](results)
+![Pytest Results](![WhatsApp Image 2024-10-16 at 20 12 26](https://github.com/user-attachments/assets/d90d4b33-8b7e-4b95-a20d-22e81f871d57)
+)
 
 The benchmarking tests revealed the following insights:
 
